@@ -2,8 +2,9 @@
   margin: 0;
   padding: 0;
 }
-.header-container{ 
+header{ 
 position: relative;
+
 }
 
 .shop-header {
@@ -25,7 +26,7 @@ position: absolute;
   height: 600px;
   margin-left: 1000px;
   margin-top: 70px;
-
+/* position: absolute; */
 }
  
 
@@ -289,7 +290,7 @@ footer {
   height: 600px;
   margin: auto;
   background-color: black;
-  margin-bottom: 1000rem;
+  margin-bottom: 2000rem;
   color: azure;
   justify-content: center;
   display: flex;
