@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
 .shop-header {
   display: flex;
   height: 100vh;
@@ -9,19 +10,33 @@
   align-items: center;
   background-color: #fceef1;
   margin-bottom: 80px;
+  position: relative;
+  align-content: center;
 }
+.shop-header-img{ 
+position: absolute;
+}
+
 .img-header {
-  width: 400px;
-  height: 805px;
+  width: 300px;
+  height: 600px;
+  margin-left: 1000px;
+  margin-top: 70px;
+
 }
+ 
+
 .shop-header-doc h1 {
   font-size: 50px;
   margin-bottom: 10px;
+  margin-right: 500px;
 }
+
 .shop-header-doc p {
   color: gray;
   font-size: 20px;
 }
+
 .head-btn {
   padding: 20px 42px;
   border-radius: 5px;
@@ -31,22 +46,27 @@
   color: white;
   font-size: 20px;
 }
+
 /* header style end  */
 .part-1-doc {
   text-align: center;
   margin: 30px;
 }
+
 .part-1-doc h2 {
   font-size: 46px;
   margin-bottom: 10px;
 }
+
 .part-1-doc p {
   color: gray;
   font-size: 20px;
 }
+
 .part-1-img-items {
   margin-bottom: 20px;
 }
+
 .img {
   border-radius: 300px 300px 0px 0px;
   background: rgba(167, 33, 98, 0.15);
@@ -54,6 +74,7 @@
   height: 436px;
   flex-shrink: 0;
 }
+
 .part-1-img-items {
   display: flex;
   justify-content: space-evenly;
@@ -61,21 +82,25 @@
   text-align: center;
   align-content: center;
 }
+
 .img-1x {
   width: 370px;
   height: 340px;
   margin-top: 50px;
   padding: 0 10px;
 }
+
 .img-2x {
   width: 300px;
   height: 415px;
   margin-top: 20px;
 }
+
 .img-3x {
   width: 314px;
   height: 435px;
 }
+
 .ancor-1 {
   margin-right: 215px;
   margin-left: 100px;
@@ -83,18 +108,21 @@
   font-weight: bold;
   font-size: 22px;
 }
+
 .ancor-2 {
   margin-right: 235px;
   color: black;
   font-weight: bold;
   font-size: 22px;
 }
+
 .ancor-3 {
   margin-right: 90px;
   color: black;
   font-weight: bold;
   font-size: 22px;
 }
+
 /* part-1 end  */
 .discount {
   display: flex;
@@ -105,17 +133,21 @@
   background: rgba(229, 84, 115, 0.05);
   text-align: center;
 }
+
 .discount h1 {
   font-size: 44px;
 }
+
 .discount p {
   color: gray;
   margin: 10px;
   font-size: 20px;
 }
+
 .discount span {
   color: #e55473;
 }
+
 .discount-btn {
   padding: 15px 30px;
   border-radius: 5px;
@@ -125,53 +157,65 @@
   color: white;
   font-size: 15px;
 }
+
 /* discount end  */
 .display {
   margin: 100px;
 }
+
 .display-doc {
   margin-top: 40px;
   text-align: center;
 }
+
 .display-doc p {
   color: gray;
   margin-top: 20px;
   font-size: 20px;
 }
+
 .display-doc h1 {
   font-size: 44px;
 }
+
 .display-img {
   display: flex;
   justify-content: space-around;
   align-items: center;
   align-content: center;
   height: 600px;
-  width: 80%;
+  width: 100%;
   margin: auto;
   margin-bottom: 100px;
+  
 }
+
 .display-img img {
   width: 250px;
   height: 300px;
 }
+
 /* display end  */
 .review {
   margin-bottom: 80px;
 }
+
 .review p {
   font-size: 20px;
   font-family: "Times New Roman", Times, serif;
 }
+
 .review-head {
   text-align: center;
   font-size: 44px;
   margin: 20px;
 }
+
 .review-container {
   display: flex;
   justify-content: space-around;
 }
+
 .review-1 {
   width: 400px;
   /* border: 2px solid red; */
@@ -179,6 +223,7 @@
   text-align: center;
   gap: 5;
 }
+
 .review-img {
   width: 400px;
   height: 400px;
@@ -201,25 +246,30 @@
   position: relative;
   margin-top: 200px;
 }
+
 .banner-iteam {
   position: absolute;
   top: 100px;
 }
+
 .banner-iteam h1 {
   font-size: 44px;
   margin-bottom: 10px;
 }
+
 .banner-iteam p {
   color: gray;
   margin-bottom: 10px;
   font-size: 20px;
 }
+
 .banner-iteam input {
   width: 450px;
   height: 45px;
   border: none;
   border-radius: 8px;
 }
+
 .banner-btn {
   padding: 14px 20px;
   border: none;
@@ -227,8 +277,9 @@
   background-color: #e55473;
   font-size: 18px;
   color: aliceblue;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
 /* banner end  */
 footer {
   width: 80%;
@@ -243,18 +294,25 @@ footer {
   align-content: center;
   border-radius: 10px;
 }
+
 .footer {
   text-align: center;
+
+
 }
+
 .footer h1 {
   font-size: 44px;
   margin: 10px;
 }
+
 .footer p {
   font-size: 22px;
   margin: 15px;
 }
+
 .footer span {
   color: #e55473;
 }
+
 /* footer end  */
