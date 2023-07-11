@@ -2,9 +2,8 @@
   margin: 0;
   padding: 0;
 }
-header{ 
-position: relative;
-
+header {
+  position: relative;
 }
 
 .shop-header {
@@ -14,11 +13,11 @@ position: relative;
   align-items: center;
   background-color: #fceef1;
   margin-bottom: 80px;
-  
+
   align-content: center;
 }
-.shop-header-img{ 
-position: absolute;
+.shop-header-img {
+  position: absolute;
 }
 
 .img-header {
@@ -26,9 +25,7 @@ position: absolute;
   height: 600px;
   margin-left: 1000px;
   margin-top: 70px;
-/* position: absolute; */
 }
- 
 
 .shop-header-doc h1 {
   font-size: 50px;
@@ -71,12 +68,26 @@ position: absolute;
   margin-bottom: 20px;
 }
 
-.img {
+.img-a {
   border-radius: 300px 300px 0px 0px;
-  background: rgba(167, 33, 98, 0.15);
+  background: rgba(33, 140, 167, 0.979);
   width: 350px;
   height: 436px;
   flex-shrink: 0;
+}
+.img-b{ 
+  border-radius: 300px 300px 0px 0px;
+    background: rgba(127, 167, 33, 0.295);
+    width: 350px;
+    height: 436px;
+    flex-shrink: 0;
+}
+.img-c{ 
+  border-radius: 300px 300px 0px 0px;
+   background-color:#e5547373 ;
+    width: 350px;
+    height: 436px;
+    flex-shrink: 0;
 }
 
 .part-1-img-items {
@@ -191,7 +202,6 @@ position: absolute;
   width: 100%;
   margin: auto;
   margin-bottom: 100px;
-  
 }
 
 .display-img img {
@@ -281,7 +291,7 @@ position: absolute;
   background-color: #e55473;
   font-size: 18px;
   color: aliceblue;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 /* banner end  */
@@ -301,8 +311,6 @@ footer {
 
 .footer {
   text-align: center;
-
-
 }
 
 .footer h1 {
