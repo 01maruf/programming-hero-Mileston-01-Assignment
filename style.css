@@ -70,7 +70,7 @@ header {
 
 .img-a {
   border-radius: 300px 300px 0px 0px;
-  background: rgba(33, 140, 167, 0.979);
+  background: rgba(33, 140, 167, 0.527);
   width: 350px;
   height: 436px;
   flex-shrink: 0;
@@ -84,7 +84,7 @@ header {
 }
 .img-c{ 
   border-radius: 300px 300px 0px 0px;
-   background-color:#e5547373 ;
+   background-color:#e5547357 ;
     width: 350px;
     height: 436px;
     flex-shrink: 0;
